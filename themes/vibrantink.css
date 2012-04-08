@@ -1,0 +1,17 @@
+#files div.highlight { background-color: #191919; } /* Background color */
+#files div.line { color: #FFFFFF; } /* Raw text */
+
+#files span.c1 { color: #8146A2; } /* Single line comment */
+#files span.cm { color: #8146A2; } /* Multi line comment */
+#files span.kd { color: #F1C438; } /* Keyword definition? */
+#files span.p  { color: #FFFFFF; } /* Punctuation */
+#files span.o  { color: #FFFFFF; } /* Operators */
+#files span.nt { color: #477488; } /* Not sure - object string JS */
+#files span.s1 { color: #80FF00; } /* Single string */
+#files span.s2 { color: #80FF00; } /* Double string */
+#files span.nx { color: #FFFFFF; } /* Other */
+#files span.k  { color: #EC691E; } /* Keyword */
+#files span.nc { color: #9CF828; } /* Class name */
+#files span.nf { color: #3C758D; } /* Inherited class */
+#files span.ss { color: #477488; } /* Ruby hash */
+#files span.no { color: #F1C438; } /* Object local */
