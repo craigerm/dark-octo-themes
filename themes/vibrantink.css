@@ -15,3 +15,12 @@
 #files span.nf { color: #3C758D; } /* Inherited class */
 #files span.ss { color: #477488; } /* Ruby hash */
 #files span.no { color: #F1C438; } /* Object local */
+
+/* DIFF STYLES */
+#files .file div.data { background-color: #191919; } /* BG Color */
+#files .file .data { color: #FFFFFF; } /* Font color */
+#files .file .gi { background-color: #9CF828; } /* Added */
+#files .file .gd { background-color: #D9B0AC; } /* Removed */
+#files.commentable tr:hover td { color: #000; } /* Hover 
+
+
