@@ -10,7 +10,7 @@ plan to include others.
 Installation
 ------------
 1. Install directly from github source
-2. Install from Chrome App Store (coming soon!)
+2. Install from Chrome App Store 
 
 ### Directly From Source
 1. git clone git://github.com/craigerm/github-theme-chrome-extension.git
@@ -20,6 +20,9 @@ Installation
 5. Choose folder of this repository
 6. Make sure the extension is enabled
 7. You should see a new icon in the top right repository
+
+### From Chrome App Store
+Coming soon!
 
 Usage
 -----
@@ -34,8 +37,8 @@ Currently there is only one theme based on the vibrantink theme.
 
 Features Planned
 ---------------
-* Viewing source code files in different themes
-* Viewing files diffs in different themes
+* <del>Viewing source code files in different themes]</del>
+* <del>Viewing files diffs in different themes</del>
 * Multiple themes available
 * Different icon to tell if this plugin is turned on or not
 * Font family and size configuration
