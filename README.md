@@ -47,7 +47,7 @@ Features Planned
 License
 -------
 [MIT
-License](https://github.com/craigerm/github-theme-chrome-extension/blob/master/LICENSE.md)
+License](https://github.com/craigerm/dark-octo-themes/blob/master/LICENSE.md)
 
 Credits
 -----
