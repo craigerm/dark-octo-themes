@@ -24,7 +24,7 @@ Search for "Dark Octo Themes" chrome extension
 4. Press the "Load unpacked extension..." button
 5. Choose folder of this repository
 6. Make sure the extension is enabled
-7. You should see a new icon in the top right repository
+7. View any github repository to see this in action
 
 Usage
 -----
