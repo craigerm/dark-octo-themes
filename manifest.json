@@ -1,16 +1,12 @@
 {
-  "name": "Github Source Code Themes",
-  "version": "1.0",
+  "name": "Dark Octo Themes",
+  "version": "1.1",
   "manifest_version": 2,
-  "description": "Apply different themes when viewing github repositories",
+  "description": "Apply different source code themes when viewing github repositories",
   "background": {
     "scripts": [
         "applyTheme.js"       
     ]
-  },
-  "browser_action": {
-    "default_title": "Apply theme to source code when viewing github",
-    "default_icon": "applications-graphics-5.png"
   },
 
   "background" : { "scripts": [ "applyTheme.js" ]  },

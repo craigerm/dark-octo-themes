@@ -1,4 +1,4 @@
-GitHub Theme Chrome Extension
+Dark Octo Themese (GitHub Theme Chrome Extension)
 ====
 
 If you prefer a darker source code theme when on github (and you use chrome)
@@ -6,6 +6,8 @@ this Chrome extension is for you!
 
 The only theme at this moment is a modified vibrantink theme, but there is a
 plan to include others.
+
+NOT AFFILIATED WITH GITHUB.COM IN ANYWAY
 
 Installation
 ------------
@@ -37,10 +39,9 @@ Currently there is only one theme based on the vibrantink theme.
 
 Features Planned
 ---------------
-* <del>Viewing source code files in different themes]</del>
+* <del>Viewing source code files in different themes</del>
 * <del>Viewing files diffs in different themes</del>
 * Multiple themes available
-* Different icon to tell if this plugin is turned on or not
 * Font family and size configuration
 
 License
@@ -52,9 +53,5 @@ Credits
 -----
 * The current icon is from the [open icon library](http://openiconlibrary.sourceforge.net/)
 * The vibrantink theme was based off of this [eclipse theme](http://www.eclipsecolorthemes.org/?view=theme&id=3)
-
-Contributing
-------------
-Coming soon
 
 
