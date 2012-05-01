@@ -41,7 +41,7 @@ Features Planned
 ---------------
 * <del>Viewing source code files in different themes</del>
 * <del>Viewing files diffs in different themes</del>
-* Include theme when viewing gist.github
+* <del>Include theme when viewing gist.github</del>
 * Multiple themes available
 * Font family and size configuration
 

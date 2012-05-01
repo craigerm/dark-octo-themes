@@ -1,11 +1,10 @@
 // For now we have just the one theme
 var theme = "themes/vibrantink.css";
-var isEnabled = false;
 
 function includeTheme(tab){
-  if(tab.url.match(/https:\/\/github.com/)){
+  if(tab.url.match(/https:\/\/(gist.)?github.com/)){  
     chrome.tabs.insertCSS(tab.id, {file: theme});
-  } 
+  }
 }
 
 chrome.browserAction.onClicked.addListener(function(tab){

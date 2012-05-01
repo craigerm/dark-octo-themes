@@ -1,3 +1,7 @@
+1.2 / 2012-04-30
+===============
+    * Theme is also applied to gist pages
+
 1.1 / 2012-04-23
 ===============
     * Changed name to dark octo themes
