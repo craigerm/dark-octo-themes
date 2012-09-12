@@ -7,6 +7,8 @@ this Chrome extension is for you!
 The only theme at this moment is a modified vibrantink theme, but there is a
 plan to include others.
 
+![Screenshot](https://github.com/craigerm/dark-octo-themes/blob/master/example.png)
+
 Installation
 ------------
 
