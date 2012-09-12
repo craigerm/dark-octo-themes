@@ -1,26 +1,22 @@
-#files div.highlight { background-color: #191919; } /* Background color */
+#files div.highlight, #readme div.highlight pre { color: #ffffff; background-color: #191919; } /* Background color */
 #files div.line { color: #FFFFFF; } /* Raw text */
-
-#files span.c1 { color: #8146A2; } /* Single line comment */
-#files span.cm { color: #8146A2; } /* Multi line comment */
-#files span.kd { color: #F1C438; } /* Keyword definition? */
-#files span.p  { color: #FFFFFF; } /* Punctuation */
-#files span.o  { color: #FFFFFF; } /* Operators */
-#files span.nt { color: #477488; } /* Not sure - object string JS */
-#files span.s1 { color: #80FF00; } /* Single string */
-#files span.s2 { color: #80FF00; } /* Double string */
-#files span.nx { color: #FFFFFF; } /* Other */
-#files span.k  { color: #EC691E; } /* Keyword */
-#files span.nc { color: #9CF828; } /* Class name */
-#files span.nf { color: #3C758D; } /* Inherited class */
-#files span.ss { color: #477488; } /* Ruby hash */
-#files span.no { color: #F1C438; } /* Object local */
-
-/* DIFF STYLES */
-#files .file div.data { background-color: #191919; } /* BG Color */
-#files .file .data { color: #FFFFFF; } /* Font color */
-#files .file .gi { background-color: #9CF828; } /* Added */
-#files .file .gd { background-color: #D9B0AC; } /* Removed */
-#files.commentable tr:hover td { color: #000; } /* Hover 
-
+#files span.c1, #readme span.c1 { color: #8146A2; } /* Single line comment */
+#files span.cm, #readme span.cm { color: #8146A2; } /* Multi line comment */
+#files span.kd, #readme span.kd { color: #F1C438; } /* Keyword definition? */
+#files span.pi, #readme span.pi { color: #FFFFFF; } /* Punctuation */
+#files span.oi, #readme span.oi { color: #FFFFFF; } /* Operators */
+#files span.nt, #readme span.nt { color: #477488; } /* Not sure - object string JS */
+#files span.s1, #readme span.s1 { color: #80FF00; } /* Single string */
+#files span.s2, #readme span.s2 { color: #80FF00; } /* Double string */
+#files span.nx, #readme span.nx { color: #FFFFFF; } /* Other */
+#files span.k,  #readme span.k  { color: #EC691E; } /* Keyword */
+#files span.kp, #readme span.kp { color: #FFFFFF; } /* Keyword something, like true/false? */
+#files span.nc, #readme span.nc { color: #9CF828; } /* Class name */
+#files span.nn, #readme span.nn { color: #FFFFFF; } /* Namespace name */
+#files span.n,  #readme span.n  { color: #FFFFFF; } /* Name */
+#files span.nb, #readme span.nb { color: #FFFFFF; } /* Method names? */
+#files span.nf, #readme span.nf { color: #3C758D; } /* Inherited class */
+#files span.ss, #readme span.ss { color: #477488; } /* Ruby hash */
+#files span.no, #readme span.no { color: #F1C438; } /* Object local */
+#files span.bp, #readme span.bp { color: #F1C438; } /* Not sure  */
 
