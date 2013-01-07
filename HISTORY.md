@@ -1,3 +1,9 @@
+1.4 / 2013-01-07
+===============
+    * Reworked CSS to work with new GitHub gist pages
+    * Added style for html comments
+    * Fixed problem with text styles being applied when viewing diffs
+
 1.3 / 2012-09-12
 ===============
     * Added some css classes that were not overriding the default github styles

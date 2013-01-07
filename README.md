@@ -12,7 +12,7 @@ plan to include others.
 Installation
 ------------
 
-1. Install from Chrome App Store 
+1. Install from Chrome App Store (Recommended)
 2. Install directly from source
 
 ### Chrome App Store
