@@ -1,0 +1,33 @@
+#files div.highlight,
+div.gist table.highlight,
+#readme div.highlight pre {
+  color: #ffffff; background-color: #191919; /* Background color */
+}
+
+#files div.line { color: #F8F8F8; } /* Raw text */
+#files span.c,  div.gist span.c,  #readme span.c  { color: #69593B; } /* Comment */
+#files span.c1, div.gist span.c1, #readme span.c1 { color: #69593B; } /* Single line comment */
+#files span.cm, div.gist span.cm, #readme span.cm { color: #69593B; } /* Multi line comment */
+#files span.kd, div.gist span.kd, #readme span.kd { color: #C87936; } /* Keyword definition? */
+#files span.pi, div.gist span.pi, #readme span.pi { color: #F8F8F8; } /* Punctuation */
+#files span.oi, div.gist span.oi, #readme span.oi { color: #F8F8F8; } /* Operators */
+#files span.nt, div.gist span.nt, #readme span.nt { color: #F8F8F8; } /* Not sure - object string JS */
+#files span.s1, div.gist span.s1, #readme span.s1 { color: #C87936; } /* Single string */
+#files span.s2, div.gist span.s2, #readme span.s2 { color: #C87936; } /* Double string */
+#files span.nx, div.gist span.nx, #readme span.nx { color: #F8F8F8; } /* Other */
+#files span.k,  div.gist span.k,  #readme span.k  { color: #C87936; } /* Keyword */
+#files span.kp, div.gist span.kp, #readme span.kp { color: #F8F8F8; } /* Keyword something, like true/false */
+#files span.nc, div.gist span.nc, #readme span.nc { color: #6489AF; } /* Class name */
+#files span.nn, div.gist span.nn, #readme span.nn { color: #6489AF; } /* Namespace name */
+#files span.n,  div.gist span.n,  #readme span.n  { color: #F8F8F8; } /* Name */
+#files span.nb, div.gist span.nb, #readme span.nb { color: #F8F8F8; } /* Method names? */
+#files span.nf, div.gist span.nf, #readme span.nf { color: #6489AF; } /* Inherited class */
+#files span.ss, div.gist span.ss, #readme span.ss { color: #F8F8F8; } /* Ruby hash */
+#files span.no, div.gist span.no, #readme span.no { color: #F8F8F8; } /* Object local */
+#files span.bp, div.gist span.bp, #readme span.bp { color: #F8F8F8; } /* Not sure  */
+
+/* When viewing diff make sure every line is black text */
+#files table.diff-table pre.line { color: #000000; }
+
+/* Sample Color for highlighting lines =>  #7E0A70 */
+
