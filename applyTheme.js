@@ -1,5 +1,5 @@
 // For now we have just the one theme
-var theme = "themes/vibrantink.css";
+var theme = "themes/sidetracked.css";
 
 function includeTheme(tab){
   if(tab.url.match(/https:\/\/(gist.)?github.com/)){  
