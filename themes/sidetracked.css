@@ -1,0 +1,42 @@
+/* Based off the excellent sidetracked theme (https://github.com/drudge/Sidetracked) */
+
+#files div.highlight,
+div.gist table.highlight,
+#readme div.highlight pre {
+  color: #F8F8F8; background-color: #191919; /* Background color */
+}
+
+#files span, div.gist span, #readme span { font-size:8pt; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; font-weight:normal !important; }
+
+#files div.line { color: #F8F8F8; } /* Raw text */
+#files span.c,  div.gist span.c,  #readme span.c  { color: #554930; } /* Comment */
+#files span.c1, div.gist span.c1, #readme span.c1 { color: #554930; } /* Single line comment */
+#files span.cp, div.gist span.cp, #readme span.cp { color: #554930; } /* Single line comment */
+#files span.cm, div.gist span.cm, #readme span.cm { color: #554930; } /* Multi line comment */
+#files span.kd, div.gist span.kd, #readme span.kd { color: #C87936; } /* Keyword definition? */
+#files span.pi, div.gist span.pi, #readme span.pi { color: #F8F8F8; } /* Punctuation */
+#files span.oi, div.gist span.oi, #readme span.oi { color: #F8F8F8; } /* Operators */
+#files span.nt, div.gist span.nt, #readme span.nt { color: #F8F8F8; } /* Not sure - object string JS */
+#files span.s, div.gist span.s, #readme span.s { color: #7A9B24; } /* String */
+#files span.sd, div.gist span.sd, #readme span.sd { color: #7A9B24; } /* String */
+#files span.s1, div.gist span.s1, #readme span.s1 { color: #7A9B24; } /* Single string */
+#files span.s2, div.gist span.s2, #readme span.s2 { color: #7A9B24; } /* Double string */
+#files span.nx, div.gist span.nx, #readme span.nx { color: #F8F8F8; } /* Other */
+#files span.k,  div.gist span.k,  #readme span.k  { color: #C87936; } /* Keyword */
+#files span.kp, div.gist span.kp, #readme span.kp { color: #F8F8F8; } /* Keyword something, like true/false */
+#files span.kt, div.gist span.kt, #readme span.kt { color: #AF662F; } /* Return type */
+
+#files span.nc, div.gist span.nc, #readme span.nc { color: #6489AF; } /* Class name */
+#files span.nn, div.gist span.nn, #readme span.nn { color: #6489AF; } /* Namespace name */
+#files span.n,  div.gist span.n,  #readme span.n  { color: #6489AE; } /* Name */
+#files span.nb, div.gist span.nb, #readme span.nb { color: #F8F8F8; } /* Method names? */
+#files span.nf, div.gist span.nf, #readme span.nf { color: #F8F8F8; } /* Method Names */
+#files span.ss, div.gist span.ss, #readme span.ss { color: #F8F8F8; } /* Ruby hash */
+#files span.no, div.gist span.no, #readme span.no { color: #F8F8F8; } /* Object local */
+#files span.bp, div.gist span.bp, #readme span.bp { color: #F8F8F8; } /* Not sure  */
+
+/* When viewing diff make sure every line is black text */
+#files table.diff-table pre.line { color: #000000; }
+
+/* Sample Color for highlighting lines =>  #7E0A70 */
+
