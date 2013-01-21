@@ -17,6 +17,7 @@ div.gist table.highlight,
 #files span.pi, div.gist span.pi, #readme span.pi { color: #F8F8F8; } /* Punctuation */
 #files span.oi, div.gist span.oi, #readme span.oi { color: #F8F8F8; } /* Operators */
 #files span.nt, div.gist span.nt, #readme span.nt { color: #F8F8F8; } /* Not sure - object string JS */
+#files span.s, div.gist span.s, #readme span.s { color: #C87936; } /* String */
 #files span.sd, div.gist span.sd, #readme span.sd { color: #C87936; } /* String */
 #files span.s1, div.gist span.s1, #readme span.s1 { color: #C87936; } /* Single string */
 #files span.s2, div.gist span.s2, #readme span.s2 { color: #C87936; } /* Double string */
