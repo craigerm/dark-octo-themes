@@ -5,14 +5,17 @@
   "description": "Apply different source code themes when viewing github repositories",
   "background": {
     "scripts": [
+        "schemeManager.js",     
         "applyTheme.js"       
     ]
   },
 
-  "background" : { "scripts": [ "applyTheme.js" ]  },
+  "background" : { "scripts": [ "schemeManager.js", "applyTheme.js" ]  },
   "permissions": [ 
     "tabs", 
     "https://gist.github.com/*",
     "https://github.com/*"
-  ]
+  ],
+  "options_page": "options.html"
+
 }
