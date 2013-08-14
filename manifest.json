@@ -6,11 +6,10 @@
   "background": {
     "scripts": [
         "schemeManager.js",     
-        "applyTheme.js"       
+        "applyTheme.js",
+        "themeStorage.js"
     ]
   },
-
-  "background" : { "scripts": [ "schemeManager.js", "applyTheme.js" ]  },
   "permissions": [ 
     "tabs", 
     "https://gist.github.com/*",
