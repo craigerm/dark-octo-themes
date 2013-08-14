@@ -1,4 +1,29 @@
-#css {
-	width: 100%;
-	height: 600px;
+body {
+  color: #303942;
+  margin: 0 auto;
+  width: 600px;
+  font: 14px arial, sans-serif;
 }
+
+h1 {
+  padding-top: 20px;
+}
+
+#buttons button {
+  float: right;
+}
+
+button {
+  -webkit-linear-gradient(#ededed, #ededed 38%, #dedede);
+  padding: 0 10px;
+  height: 24px;
+}
+
+.notice {
+  padding: 10px;
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  margin-bottom: 10px;
+}
+

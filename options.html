@@ -5,17 +5,16 @@
     </head>
 
     <body>
-    
-        <textarea id="css"></textarea>
-        
-        <br>
-        <div id="status"></div>
+        Choose the theme to use:
+        <select id="theme">
+          <option value="vibrantink">Vibrant Ink</option>
+          <option value="sidetracked">Side Tracked</option>
+        </select>
         <button id="save">Save</button>
-        <div id="preview">        
-        </div>
-
+        <div id="status" class="notice" style="display:none;"></div>
     </body>
-    <script src="schemeManager.js"></script>
-    <script src="options.js"></script>
 
-    </html>
+    <script src="schemeManager.js"></script>
+    <script src="themeStorage.js"></script>
+    <script src="options.js"></script>
+  </html>
