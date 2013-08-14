@@ -1,25 +1,11 @@
-console.log('call');
 function includeTheme(tab){
   if(tab.url.match(/https:\/\/(gist.)?github.com/)){  
-    var scheme = currentScheme();
-    console.log(scheme);
-    chrome.tabs.insertCSS(tab.id, {code: scheme});
+    addThemeToTab(tab, ThemeStorage.getCurrent());
   }
 }
 
-function saveChanges() {
-  // Get a value saved in a form.
-  var theValue = textarea.value;
-  // Check that there's some code there.
-  if (!theValue) {
-    message('Error: No value specified');
-    return;
-  }
-  // Save it using the Chrome extension storage API.
-  chrome.storage.sync.set({'value': theValue}, function() {
-    // Notify that we saved.
-    message('Settings saved');
-  });
+function addThemeToTab(tab, themeName) {
+  chrome.tabs.insertCSS(tab.id, {file: 'themes/' + themeName + '.css'});
 }
 
 chrome.browserAction.onClicked.addListener(function(tab){
