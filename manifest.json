@@ -9,8 +9,6 @@
         "applyTheme.js"       
     ]
   },
-
-  "background" : { "scripts": [ "schemeManager.js", "applyTheme.js" ]  },
   "permissions": [ 
     "tabs", 
     "https://gist.github.com/*",
