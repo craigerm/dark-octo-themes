@@ -4,7 +4,7 @@ function saveButton() {
     var status = document.getElementById("status");
     status.innerHTML = "Options Saved.";
     setTimeout(function() {
-	  	status.innerHTML = "";
+      status.innerHTML = "";
     }, 750);
 }
 
