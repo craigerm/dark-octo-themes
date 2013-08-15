@@ -1,32 +1,26 @@
-function onClickSave() {
-  var theme = document.getElementById('theme').value;
-  setStatus('Theme changed to ' + theme);
+function onChangeTheme() {
+  var theme = this.name;
   ThemeStorage.save(theme);
+  highlightSelectedTheme(theme);
 }
 
-function setStatus(message) {
-  var status = document.getElementById("status");
-  status.innerHTML = message;
-  status.style.display = 'block';
-  setTimeout(function() {
-    status.innerHTML = "";
-    status.style.display = 'none';
-  }, 2000);
+function highlightSelectedTheme(theme) {
+  themes = document.querySelectorAll('a > .selected');
+  for(var i=0; i < themes.length; i++) {
+    themes[i].style.display = 'none';
+  }
+  selectedItem = document.querySelector('a[name=' + theme + '] .selected');
+  selectedItem.style.display = 'block';
 }
 
 function initForm() {
-  console.log('Loading current theme %s', ThemeStorage.getCurrent());
-  document.getElementById('theme').value = ThemeStorage.getCurrent();
-  document.querySelector('#save').addEventListener('click', onClickSave);
+  var currentTheme = ThemeStorage.getCurrent();
+  highlightSelectedTheme(currentTheme);
+  elements = document.querySelectorAll('.theme-preview > a');
+
+  for(var i=0; i < elements.length; i++) {
+    elements[i].addEventListener('click', onChangeTheme);
+  }
 }
 
-//function setSchemeEditor(scheme) {
-//  var css = document.getElementById("css");
-//  css.value = scheme;
-//}
-
-
 initForm();
-
-//var css = document.getElementById("css");
-//setSchemeEditor(currentScheme());
