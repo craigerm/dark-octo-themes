@@ -11,6 +11,11 @@ div.gist table.highlight,
   color: #ffffff;
 }
 /* Raw text */
+#files .blob-line-nums,
+#files .line-number {
+  color: #aaaaaa;
+}
+/* Line numbers */
 #files span.c,
 div.gist span.c,
 #readme span.c {
