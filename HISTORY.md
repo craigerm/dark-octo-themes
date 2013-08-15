@@ -1,3 +1,8 @@
+1.5 / 2013-08-15
+================
+    * [Fix #3](i3) - Blame not displaying correctly
+    * Add side track theme and options page for changing theme - Thanks @maxgoedjen
+
 1.4 / 2013-01-07
 ===============
     * Reworked CSS to work with new GitHub gist pages
