@@ -1,12 +1,12 @@
-#files div.highlight,
+#files div.blob-wrapper div.highlight,
+#files .blame .file-code,
 div.gist table.highlight,
-#files .file-code,
 #readme div.highlight pre {
   color: @text; 
   background-color: @background; /* Background color */
 }
 
-#files div.line { color: @text; } /* Raw text */
+#files tr.file-code-line div.line, { color: @text; }
 #files .blob-line-nums, #files .line-number { color: @lineNums } /* Line numbers */
 #files span.c,  div.gist span.c,  #readme span.c  { color: @comment; } /* Comment */
 #files span.c1, div.gist span.c1, #readme span.c1 { color: @comment; } /* Single line comment */

@@ -1,16 +1,15 @@
-#files div.highlight,
+#files div.blob-wrapper div.highlight,
+#files .blame .file-code,
 div.gist table.highlight,
-#files .file-code,
 #readme div.highlight pre {
   color: #ffffff;
   background-color: #191919;
   /* Background color */
 
 }
-#files div.line {
+#files tr.file-code-line div.line {
   color: #ffffff;
 }
-/* Raw text */
 #files .blob-line-nums,
 #files .line-number {
   color: #aaaaaa;
