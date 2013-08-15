@@ -1,3 +1,7 @@
+// Add some convenience aliases
+var forEach = Array.prototype.forEach;
+var $ = document.querySelectorAll.bind(document);
+
 function onChangeTheme() {
   var theme = this.name;
   ThemeStorage.save(theme);
@@ -5,22 +9,32 @@ function onChangeTheme() {
 }
 
 function highlightSelectedTheme(theme) {
-  themes = document.querySelectorAll('a > .selected');
-  for(var i=0; i < themes.length; i++) {
-    themes[i].style.display = 'none';
-  }
-  selectedItem = document.querySelector('a[name=' + theme + '] .selected');
+  var themes = $('a > .selected');
+  forEach.call(themes, function(theme) {
+    theme.style.display = 'none';
+  });
+  selectedItem = $('a[name=' + theme + '] .selected')[0];
   selectedItem.style.display = 'block';
 }
 
+function onMouseOverPreview() {
+  this.querySelector('span').style.display = 'block';
+}
+
+function onMouseOutPreview() {
+  this.querySelector('span').style.display = 'none';
+}
+
 function initForm() {
+
   var currentTheme = ThemeStorage.getCurrent();
   highlightSelectedTheme(currentTheme);
-  elements = document.querySelectorAll('.theme-preview > a');
 
-  for(var i=0; i < elements.length; i++) {
-    elements[i].addEventListener('click', onChangeTheme);
-  }
+  forEach.call($('.theme-preview > a'), function(element) {
+    element.addEventListener('click', onChangeTheme);
+    element.addEventListener('mouseover', onMouseOverPreview);
+    element.addEventListener('mouseout', onMouseOutPreview);
+  });
 }
 
 initForm();
