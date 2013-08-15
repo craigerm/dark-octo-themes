@@ -1,6 +1,7 @@
 /* Based off the excellent sidetracked theme (https://github.com/drudge/Sidetracked) */
 #files div.highlight,
 div.gist table.highlight,
+#files .file-code,
 #readme div.highlight pre {
   color: #f8f8f8;
   background-color: #191919;
@@ -41,6 +42,12 @@ div.gist span.pi,
   color: #f8f8f8;
 }
 /* Punctuation */
+#files span.o,
+div.gist span.o,
+#readme span.o {
+  color: #f8f8f8;
+}
+/*Operators */
 #files span.oi,
 div.gist span.oi,
 #readme span.oi {
@@ -50,9 +57,9 @@ div.gist span.oi,
 #files span.nt,
 div.gist span.nt,
 #readme span.nt {
-  color: #f8f8f8;
+  color: #d8b778;
 }
-/* Not sure - object string JS */
+/* Not sure - used for html tag? */
 #files span.s1,
 div.gist span.s1,
 #readme span.s1 {
@@ -77,6 +84,12 @@ div.gist span.k,
   color: #af662f;
 }
 /* Keyword */
+#files span.kc,
+div.gist span.kc,
+#readme span.kc {
+  color: #af662f;
+}
+/* Keyword constant */
 #files span.kp,
 div.gist span.kp,
 #readme span.kp {
@@ -137,3 +150,9 @@ div.gist span.bp,
   color: #f8f8f8;
 }
 /* Not sure  */
+#files span.p,
+div.gist span.p,
+#readme span.p {
+  color: #ffffff;
+}
+/* Parenthesis */

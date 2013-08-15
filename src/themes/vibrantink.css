@@ -1,5 +1,6 @@
 #files div.highlight,
 div.gist table.highlight,
+#files .file-code,
 #readme div.highlight pre {
   color: #ffffff;
   background-color: #191919;
@@ -40,6 +41,12 @@ div.gist span.pi,
   color: #ffffff;
 }
 /* Punctuation */
+#files span.o,
+div.gist span.o,
+#readme span.o {
+  color: #ffffff;
+}
+/*Operators */
 #files span.oi,
 div.gist span.oi,
 #readme span.oi {
@@ -51,7 +58,7 @@ div.gist span.nt,
 #readme span.nt {
   color: #477488;
 }
-/* Not sure - object string JS */
+/* Not sure - used for html tag? */
 #files span.s1,
 div.gist span.s1,
 #readme span.s1 {
@@ -76,6 +83,12 @@ div.gist span.k,
   color: #ec691e;
 }
 /* Keyword */
+#files span.kc,
+div.gist span.kc,
+#readme span.kc {
+  color: #ec691e;
+}
+/* Keyword constant */
 #files span.kp,
 div.gist span.kp,
 #readme span.kp {
@@ -136,3 +149,9 @@ div.gist span.bp,
   color: #f1c438;
 }
 /* Not sure  */
+#files span.p,
+div.gist span.p,
+#readme span.p {
+  color: #ffffff;
+}
+/* Parenthesis */
