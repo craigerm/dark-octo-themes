@@ -4,10 +4,7 @@ Dark Octo Themes (GitHub Theme Chrome Extension)
 If you prefer a darker source code theme when on github (and you use chrome)
 this Chrome extension is for you!
 
-The only theme at this moment is a modified vibrantink theme, but there is a
-plan to include others.
-
-![Screenshot](https://raw.github.com/craigerm/dark-octo-themes/master/example.png)
+![Screenshot](https://raw.github.com/craigerm/dark-octo-themes/master/src/images/example.png)
 
 Installation
 ------------
@@ -31,20 +28,21 @@ Search for "Dark Octo Themes" chrome extension
 Usage
 -----
 Just navigate to any file in a github repository to see the dark theme
-automatically applied. 
+automatically applied. It also works for gists and blame.
 
-When you navigate to a file for a github repository you will see a dark theme.
+To change the theme view the extension options and select the theme you like.
 
 Themes
 ------
-Currently there is only one theme based on the vibrantink theme. 
+* Vibrant Ink
+* Side Tracked - thanks to [@maxgoedjen](https://github.com/maxgoedjen)
 
 Features Planned
 ---------------
 * <del>Viewing source code files in different themes</del>
 * <del>Viewing files diffs in different themes</del>
 * <del>Include theme when viewing gist.github</del>
-* Multiple themes available
+* <del>Multiple themes available</del>
 * Font family and size configuration
 
 License
@@ -55,5 +53,4 @@ License](https://github.com/craigerm/dark-octo-themes/blob/master/LICENSE.md)
 Credits
 -----
 * The vibrantink theme was based off of this [eclipse theme](http://www.eclipsecolorthemes.org/?view=theme&id=3)
-
 
