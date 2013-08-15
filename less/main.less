@@ -1,0 +1,29 @@
+#files div.highlight,
+div.gist table.highlight,
+#readme div.highlight pre {
+  color: @text; 
+  background-color: @background; /* Background color */
+}
+
+#files div.line { color: @text; } /* Raw text */
+#files span.c,  div.gist span.c,  #readme span.c  { color: @comment; } /* Comment */
+#files span.c1, div.gist span.c1, #readme span.c1 { color: @comment; } /* Single line comment */
+#files span.cm, div.gist span.cm, #readme span.cm { color: @comment; } /* Multi line comment */
+#files span.kd, div.gist span.kd, #readme span.kd { color: @keywordDef; } /* Keyword definition? */
+#files span.pi, div.gist span.pi, #readme span.pi { color: @punctuation; } /* Punctuation */
+#files span.oi, div.gist span.oi, #readme span.oi { color: @operator; } /* Operators */
+#files span.nt, div.gist span.nt, #readme span.nt { color: @objectString; } /* Not sure - object string JS */
+#files span.s1, div.gist span.s1, #readme span.s1 { color: @string; } /* Single string */
+#files span.s2, div.gist span.s2, #readme span.s2 { color: @string; } /* Double string */
+#files span.nx, div.gist span.nx, #readme span.nx { color: @other; } /* Other */
+#files span.k,  div.gist span.k,  #readme span.k  { color: @keyword; } /* Keyword */
+#files span.kp, div.gist span.kp, #readme span.kp { color: @keyword2; } /* Keyword something, like true/false */
+#files span.kt, div.gist span.kt, #readme span.kt { color: @type; } /* Return type */
+#files span.nc, div.gist span.nc, #readme span.nc { color: @class; } /* Class name */
+#files span.nn, div.gist span.nn, #readme span.nn { color: @namespace; } /* Namespace name */
+#files span.n,  div.gist span.n,  #readme span.n  { color: @name; } /* Name */
+#files span.nb, div.gist span.nb, #readme span.nb { color: @method; } /* Method names? */
+#files span.nf, div.gist span.nf, #readme span.nf { color: @inherited; } /* Inherited class */
+#files span.ss, div.gist span.ss, #readme span.ss { color: @ss; } /* Ruby hash */
+#files span.no, div.gist span.no, #readme span.no { color: @local; } /* Object local */
+#files span.bp, div.gist span.bp, #readme span.bp { color: @bp; } /* Not sure  */

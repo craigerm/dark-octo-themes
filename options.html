@@ -1,21 +1,38 @@
 <html>
-    <head>
-        <title>dark-octo-themes Options</title>
-        <link rel="stylesheet" type="text/css" href="options.css" />
-    </head>
+  <head>
+    <title>Dark Octo Themes Options</title>
+    <link href="font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="options.css" />
+  </head>
 
-    <body>
-    
-        <textarea id="css"></textarea>
-        
-        <br>
-        <div id="status"></div>
-        <button id="save">Save</button>
-        <div id="preview">        
-        </div>
+  <body>
 
-    </body>
+    <header>
+      <h1>Dark Octo Themes Options</h1>
+      <h3>Choose the theme you like best...</h3>
+    </header>
+
+    <div id="preview">
+
+      <div class="theme-preview">
+        <a name="vibrantink" href="#">
+          <span>Vibrant Ink</span>
+          <i class="selected icon-ok"></i>
+          <img src="images/vibrantink.png" />
+        </a>
+      </div>
+
+      <div class="theme-preview">
+        <a name="sidetracked" href="#">
+          <span>Side Tracked</span>
+          <i class="selected icon-ok"></i>
+          <img src="images/sidetracked.png" />
+        </a>
+      </div>
+    </div>
+
     <script src="schemeManager.js"></script>
+    <script src="themeStorage.js"></script>
     <script src="options.js"></script>
-
-    </html>
+  </body>
+</html>
