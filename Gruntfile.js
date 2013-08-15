@@ -18,15 +18,27 @@ var getLessFiles = function() {
 };
 
 module.exports = function(grunt) {
+
   grunt.initConfig({
+
     less: {
       development: {
         files: getLessFiles()
       }
+    },
+
+    watch: {
+      all: {
+        files: ['less/*.less'],
+        tasks: 'less'
+      }
     }
+
   });
 
   grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
   grunt.registerTask('default', ['less']);
 };
 

@@ -3,6 +3,7 @@
   "version": "1.4.0",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-less": "~0.7.0"
+    "grunt-contrib-less": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.1"
   }
 }
