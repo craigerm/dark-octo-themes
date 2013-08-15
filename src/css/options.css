@@ -1,5 +1,5 @@
 body {
-  color: #303942;
+  color: #333;
   margin: 0 auto;
   width: 900px;
   font: 14px Helvetica, arial, sans-serif;
@@ -8,6 +8,11 @@ body {
 
 h1 {
   padding-top: 20px;
+}
+
+header {
+  margin-top: 50px;
+  text-align: center;
 }
 
 .theme-preview {
@@ -28,10 +33,12 @@ img {
   color: #ffffff;
   font-weight: bold;
   padding: 4px 8px 4px 10px;
+  display: none;
 }
 
+
 .theme-preview:not(:first-child) {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .theme-preview .selected {
@@ -42,5 +49,21 @@ img {
   color: #46B525;
   font-size: 81px;
   text-decoration: none;
+}
+
+footer {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+  margin-top: 20px;
+}
+
+footer a  {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
