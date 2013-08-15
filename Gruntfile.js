@@ -21,9 +21,26 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
 
+    pkg: grunt.file.readJSON('package.json'),
+
+    meta: {
+      version: '<%= pkg.version %>'
+    },
+
     less: {
       development: {
         files: getLessFiles()
+      }
+    },
+
+    compress: {
+      main: {
+        options: {
+          archive: 'dist/release_<%= meta.version %>.zip'
+        },
+        files: [
+          {src: ['src/**/*', 'manifest.json']}
+        ]
       }
     },
 
@@ -38,7 +55,9 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-compress');
 
   grunt.registerTask('default', ['less']);
+  grunt.registerTask('release', ['compress']);
 };
 
