@@ -5,9 +5,8 @@
   "description": "Apply different source code themes when viewing github repositories",
   "background": {
     "scripts": [
-        "schemeManager.js",     
-        "applyTheme.js",
-        "themeStorage.js"
+        "src/js/applyTheme.js",
+        "src/js/themeStorage.js"
     ]
   },
   "permissions": [ 
@@ -15,6 +14,5 @@
     "https://gist.github.com/*",
     "https://github.com/*"
   ],
-  "options_page": "options.html"
-
+  "options_page": "src/options.html"
 }

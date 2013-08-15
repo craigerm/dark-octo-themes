@@ -5,7 +5,7 @@ function includeTheme(tab){
 }
 
 function addThemeToTab(tab, themeName) {
-  chrome.tabs.insertCSS(tab.id, {file: 'themes/' + themeName + '.css'});
+  chrome.tabs.insertCSS(tab.id, {file: 'src/themes/' + themeName + '.css'});
 }
 
 chrome.browserAction.onClicked.addListener(function(tab){
