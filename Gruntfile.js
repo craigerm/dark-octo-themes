@@ -1,3 +1,4 @@
+
 var fs = require('fs')
   , path = require('path');
 
@@ -8,7 +9,7 @@ var getLessFiles = function() {
   for(var i=0; i < files.length; i++) {
     var srcFile = files[i];
     if(srcFile != 'main.less') {
-      var destFile = 'themes/' + path.basename(srcFile, '.less') + '.css';
+      var destFile = 'src/themes/' + path.basename(srcFile, '.less') + '.css';
       console.log('Building %s => %s', srcFile, destFile);
       lessFiles[destFile] = 'less/' + srcFile;
     }
