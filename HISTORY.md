@@ -1,3 +1,7 @@
+1.6 / 2013-09-05
+================
+    * Removed click handler that was causing the extension to stop working on newer chrome 
+
 1.5 / 2013-08-15
 ================
     * [Fix #3](i3) - Blame not displaying correctly
