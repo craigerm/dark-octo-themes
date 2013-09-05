@@ -1,6 +1,6 @@
 {
   "name": "Dark Octo Themes",
-  "version": "1.5",
+  "version": "1.6",
   "manifest_version": 2,
   "description": "Apply different source code themes when viewing github repositories",
   "background": {
