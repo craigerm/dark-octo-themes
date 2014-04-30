@@ -1,3 +1,9 @@
+1.8 / 2014-04-30
+    * Fix bug stopping theme from being applied to code view
+
+1.7 / 2013-12-08
+    *  On gist comments the theme should be applied to code snippets
+
 1.6 / 2013-09-05
 ================
     * Removed click handler that was causing the extension to stop working on newer chrome 
