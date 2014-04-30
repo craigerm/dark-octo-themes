@@ -1,4 +1,5 @@
-#files div.blob-wrapper div.highlight,
+.file div.blob-wrapper div.highlight,
+.file .diff-line-code,
 #files .blame .file-code,
 div.gist table.highlight,
 #comments div.highlight pre,
@@ -9,153 +10,153 @@ div.gist table.highlight,
 
   font-color: red !important;
 }
-#files tr.file-code-line div.line {
+.file tr.file-code-line div.line {
   color: #ffffff;
 }
-#files .blob-line-nums,
+.file .blob-line-nums,
 #files .line-number {
   color: #aaaaaa;
 }
 /* Line numbers */
-#files span.c,
+.file span.c,
 div.gist span.c,
 #readme span.c {
   color: #8146a2;
 }
 /* Comment */
-#files span.c1,
+.file span.c1,
 div.gist span.c1,
 #readme span.c1 {
   color: #8146a2;
 }
 /* Single line comment */
-#files span.cm,
+.file span.cm,
 div.gist span.cm,
 #readme span.cm {
   color: #8146a2;
 }
 /* Multi line comment */
-#files span.kd,
+.file span.kd,
 div.gist span.kd,
 #readme span.kd {
   color: #f1c438;
 }
 /* Keyword definition? */
-#files span.pi,
+.file span.pi,
 div.gist span.pi,
 #readme span.pi {
   color: #ffffff;
 }
 /* Punctuation */
-#files span.o,
+.file span.o,
 div.gist span.o,
 #readme span.o {
   color: #ffffff;
 }
 /*Operators */
-#files span.oi,
+.file span.oi,
 div.gist span.oi,
 #readme span.oi {
   color: #ffffff;
 }
 /* Operators */
-#files span.nt,
+.file span.nt,
 div.gist span.nt,
 #readme span.nt {
   color: #477488;
 }
 /* Not sure - used for html tag? */
-#files span.s1,
+.file span.s1,
 div.gist span.s1,
 #readme span.s1 {
   color: #80ff00;
 }
 /* Single string */
-#files span.s2,
+.file span.s2,
 div.gist span.s2,
 #readme span.s2 {
   color: #80ff00;
 }
 /* Double string */
-#files span.nx,
+.file span.nx,
 div.gist span.nx,
 #readme span.nx {
   color: #ffffff;
 }
 /* Other */
-#files span.k,
+.file span.k,
 div.gist span.k,
 #readme span.k {
   color: #ec691e;
 }
 /* Keyword */
-#files span.kc,
+.file span.kc,
 div.gist span.kc,
 #readme span.kc {
   color: #ec691e;
 }
 /* Keyword constant */
-#files span.kp,
+.file span.kp,
 div.gist span.kp,
 #readme span.kp {
   color: #ffffff;
 }
 /* Keyword something, like true/false */
-#files span.kt,
+.file span.kt,
 div.gist span.kt,
 #readme span.kt {
   color: #af662f;
 }
 /* Return type */
-#files span.nc,
+.file span.nc,
 div.gist span.nc,
 #readme span.nc {
   color: #9cf828;
 }
 /* Class name */
-#files span.nn,
+.file span.nn,
 div.gist span.nn,
 #readme span.nn {
   color: #ffffff;
 }
 /* Namespace name */
-#files span.n,
+.file span.n,
 div.gist span.n,
 #readme span.n {
   color: #ffffff;
 }
 /* Name */
-#files span.nb,
+.file span.nb,
 div.gist span.nb,
 #readme span.nb {
   color: #ffffff;
 }
 /* Method names? */
-#files span.nf,
+.file span.nf,
 div.gist span.nf,
 #readme span.nf {
   color: #3c758d;
 }
 /* Inherited class */
-#files span.ss,
+.file span.ss,
 div.gist span.ss,
 #readme span.ss {
   color: #477488;
 }
 /* Ruby hash */
-#files span.no,
+.file span.no,
 div.gist span.no,
 #readme span.no {
   color: #f1c438;
 }
 /* Object local */
-#files span.bp,
+.file span.bp,
 div.gist span.bp,
 #readme span.bp {
   color: #f1c438;
 }
 /* Not sure  */
-#files span.p,
+.file span.p,
 div.gist span.p,
 #readme span.p {
   color: #ffffff;
