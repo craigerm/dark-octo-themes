@@ -1,14 +1,12 @@
-.file div.blob-wrapper div.highlight,
+.file div.blob-wrapper .highlight,
 .file .diff-line-code,
 #files .blame .file-code,
 div.gist table.highlight,
-#comments div.highlight pre,
-#readme div.highlight pre {
+#readme .highlight pre {
   color: #ffffff;
   background-color: #191919;
   /* Background color */
 
-  font-color: red !important;
 }
 .file tr.file-code-line div.line {
   color: #ffffff;

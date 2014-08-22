@@ -1,12 +1,10 @@
-.file div.blob-wrapper div.highlight,
-.file .diff-line-code,
-#files .blame .file-code,
-div.gist table.highlight,
-#comments div.highlight pre,
-#readme div.highlight pre {
+.file div.blob-wrapper .highlight, // source file
+.file .diff-line-code, // commit diff
+#files .blame .file-code, // blame
+div.gist table.highlight, //gist
+#readme .highlight pre {
   color: @text; 
   background-color: @background; /* Background color */
-  font-color: red !important;
 }
 
 .file tr.file-code-line div.line, { color: @text; }

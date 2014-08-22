@@ -1,15 +1,13 @@
 /* Based off the excellent sidetracked theme (https://github.com/drudge/Sidetracked) */
-.file div.blob-wrapper div.highlight,
+.file div.blob-wrapper .highlight,
 .file .diff-line-code,
 #files .blame .file-code,
 div.gist table.highlight,
-#comments div.highlight pre,
-#readme div.highlight pre {
+#readme .highlight pre {
   color: #f8f8f8;
   background-color: #191919;
   /* Background color */
 
-  font-color: red !important;
 }
 .file tr.file-code-line div.line {
   color: #f8f8f8;
