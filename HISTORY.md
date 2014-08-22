@@ -1,3 +1,6 @@
+1.9 / 2014-08-22
+    * Fix issue with source code background colour not displayin
+
 1.8 / 2014-04-30
     * Fix bug stopping theme from being applied to code view
 
