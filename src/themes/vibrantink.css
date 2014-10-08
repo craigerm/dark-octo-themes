@@ -8,11 +8,11 @@ div.gist table.highlight,
   /* Background color */
 
 }
-.file tr.file-code-line div.line {
+.file td.blob-code {
   color: #ffffff;
 }
-.file .blob-line-nums,
-#files .line-number {
+/* Plain text */
+.file .blob-num {
   color: #aaaaaa;
 }
 /* Line numbers */

@@ -7,8 +7,8 @@ div.gist table.highlight, //gist
   background-color: @background; /* Background color */
 }
 
-.file tr.file-code-line div.line, { color: @text; }
-.file .blob-line-nums, #files .line-number { color: @lineNums } /* Line numbers */
+.file td.blob-code { color: @text; } /* Plain text */
+.file .blob-num { color: @lineNums; } /* Line numbers */
 .file span.c,  div.gist span.c,  #readme span.c  { color: @comment; } /* Comment */
 .file span.c1, div.gist span.c1, #readme span.c1 { color: @comment; } /* Single line comment */
 .file span.cm, div.gist span.cm, #readme span.cm { color: @comment; } /* Multi line comment */
