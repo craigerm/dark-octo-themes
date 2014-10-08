@@ -1,5 +1,10 @@
+1.10 / 2014-10-08
+    * Fix broken line number colour
+    * Fix plain text colour
+    * Fix background colour in readme code snippets
+
 1.9 / 2014-08-22
-    * Fix issue with source code background colour not displayin
+    * Fix issue with source code background colour not displaying
 
 1.8 / 2014-04-30
     * Fix bug stopping theme from being applied to code view
