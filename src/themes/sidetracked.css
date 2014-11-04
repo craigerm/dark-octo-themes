@@ -1,6 +1,6 @@
 /* Based off the excellent sidetracked theme (https://github.com/drudge/Sidetracked) */
 .file div.blob-wrapper .highlight,
-.file .diff-line-code,
+.file div.diff-line-code,
 #files .blame .file-code,
 div.gistktable.highlight,
 .readme .markdown-body .highlight pre {
@@ -9,153 +9,153 @@ div.gistktable.highlight,
   /* Background color */
 
 }
-.file td.blob-code {
+.file table.highlight td.blob-code {
   color: #f8f8f8;
 }
 /* Plain text */
-.file .blob-num {
+.file table.highlight .blob-num {
   color: #aaaaaa;
 }
 /* Line numbers */
-.file span.c,
+.file table.highlight span.c,
 div.gist span.c,
 .readme span.c {
   color: #554930;
 }
 /* Comment */
-.file span.c1,
+.file table.highlight span.c1,
 div.gist span.c1,
 .readme span.c1 {
   color: #554930;
 }
 /* Single line comment */
-.file span.cm,
+.file table.highlight span.cm,
 div.gist span.cm,
 .readme span.cm {
   color: #554930;
 }
 /* Multi line comment */
-.file span.kd,
+.file table.highlight span.kd,
 div.gist span.kd,
 .readme span.kd {
   color: #c87936;
 }
 /* Keyword definition? */
-.file span.pi,
+.file table.highlight span.pi,
 div.gist span.pi,
 .readme span.pi {
   color: #f8f8f8;
 }
 /* Punctuation */
-.file span.o,
+.file table.highlight span.o,
 div.gist span.o,
 .readme span.o {
   color: #f8f8f8;
 }
 /*Operators */
-.file span.oi,
+.file table.highlight span.oi,
 div.gist span.oi,
 .readme span.oi {
   color: #f8f8f8;
 }
 /* Operators */
-.file span.nt,
+.file table.highlight span.nt,
 div.gist span.nt,
 .readme span.nt {
   color: #d8b778;
 }
 /* Not sure - used for html tag? */
-.file span.s1,
+.file table.highlight span.s1,
 div.gist span.s1,
 .readme span.s1 {
   color: #7a9b24;
 }
 /* Single string */
-.file span.s2,
+.file table.highlight span.s2,
 div.gist span.s2,
 .readme span.s2 {
   color: #7a9b24;
 }
 /* Double string */
-.file span.nx,
+.file table.highlight span.nx,
 div.gist span.nx,
 .readme span.nx {
   color: #f8f8f8;
 }
 /* Other */
-.file span.k,
+.file table.highlight span.k,
 div.gist span.k,
 .readme span.k {
   color: #af662f;
 }
 /* Keyword */
-.file span.kc,
+.file table.highlight span.kc,
 div.gist span.kc,
 .readme span.kc {
   color: #af662f;
 }
 /* Keyword constant */
-.file span.kp,
+.file table.highlight span.kp,
 div.gist span.kp,
 .readme span.kp {
   color: #f8f8f8;
 }
 /* Keyword something, like true/false */
-.file span.kt,
+.file table.highlight span.kt,
 div.gist span.kt,
 .readme span.kt {
   color: #af662f;
 }
 /* Return type */
-.file span.nc,
+.file table.highlight span.nc,
 div.gist span.nc,
 .readme span.nc {
   color: #6489af;
 }
 /* Class name */
-.file span.nn,
+.file table.highlight span.nn,
 div.gist span.nn,
 .readme span.nn {
   color: #6489af;
 }
 /* Namespace name */
-.file span.n,
+.file table.highlight span.n,
 div.gist span.n,
 .readme span.n {
   color: #6489af;
 }
 /* Name */
-.file span.nb,
+.file table.highlight span.nb,
 div.gist span.nb,
 .readme span.nb {
   color: #f8f8f8;
 }
 /* Method names? */
-.file span.nf,
+.file table.highlight span.nf,
 div.gist span.nf,
 .readme span.nf {
   color: #f8f8f8;
 }
 /* Inherited class */
-.file span.ss,
+.file table.highlight span.ss,
 div.gist span.ss,
 .readme span.ss {
   color: #f8f8f8;
 }
 /* Ruby hash */
-.file span.no,
+.file table.highlight span.no,
 div.gist span.no,
 .readme span.no {
   color: #f8f8f8;
 }
 /* Object local */
-.file span.bp,
+.file table.highlight span.bp,
 div.gist span.bp,
 .readme span.bp {
   color: #f8f8f8;
 }
 /* Not sure  */
-.file span.p,
+.file table.highlight span.p,
 div.gist span.p,
 .readme span.p {
   color: #ffffff;

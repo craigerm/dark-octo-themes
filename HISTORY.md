@@ -1,3 +1,6 @@
+1.1. / 2014-10-08
+    * Fix diff colours
+
 1.10 / 2014-10-08
     * Fix broken line number colour
     * Fix plain text colour
