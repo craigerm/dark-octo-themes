@@ -2,159 +2,256 @@
 .file div.diff-line-code,
 #files .blame .file-code,
 div.gistktable.highlight,
-.readme .markdown-body .highlight pre {
+#readme .markdown-body .highlight pre {
   color: #ffffff;
   background-color: #191919;
   /* Background color */
 
 }
+#readme .blame-commit-title,
+div.gist .blame-commit-title,
+.file table.highlight .blame-commit-title {
+  color: #ffffff;
+}
+#readme td.blob-code,
+div.gist td.blob-code,
 .file table.highlight td.blob-code {
   color: #ffffff;
 }
+#readme .pl-c,
+div.gist .pl-c,
+.file table.highlight .pl-c {
+  color: #8146a2;
+}
+#readme .pl-c1,
+div.gist .pl-c1,
+.file table.highlight .pl-c1 {
+  color: #477488;
+}
+#readme .pl-k,
+div.gist .pl-k,
+.file table.highlight .pl-k {
+  color: #ec691e;
+}
+#readme .pl-st,
+div.gist .pl-st,
+.file table.highlight .pl-st {
+  color: #ec691e;
+}
+#readme .pl-s3,
+div.gist .pl-s3,
+.file table.highlight .pl-s3 {
+  color: #ffffff;
+}
+#readme .pl-vpf,
+div.gist .pl-vpf,
+.file table.highlight .pl-vpf {
+  color: #ffffff;
+}
+#readme .pl-d3,
+div.gist .pl-d3,
+.file table.highlight .pl-d3 {
+  color: #ffffff;
+}
+#readme .pl-s1 .pl-pds,
+div.gist .pl-s1 .pl-pds,
+.file table.highlight .pl-s1 .pl-pds {
+  color: #80ff00;
+}
+#readme .pl-s1,
+div.gist .pl-s1,
+.file table.highlight .pl-s1 {
+  color: #80ff00;
+}
+#readme .pl-s,
+div.gist .pl-s,
+.file table.highlight .pl-s {
+  color: #ec691e;
+}
+#readme .pl-en,
+div.gist .pl-en,
+.file table.highlight .pl-en {
+  color: #ffffff;
+}
+#readme .pl-v,
+div.gist .pl-v,
+.file table.highlight .pl-v {
+  color: #ffffff;
+}
+#readme .pl-vo,
+div.gist .pl-vo,
+.file table.highlight .pl-vo {
+  font-weight: bold;
+  color: #3c758d;
+}
+#readme .pl-pse,
+div.gist .pl-pse,
+.file table.highlight .pl-pse {
+  color: #3c758d;
+}
+#readme .pl-s2,
+div.gist .pl-s2,
+.file table.highlight .pl-s2 {
+  color: #f1c438;
+  font-weight: bold;
+}
+#readme .pl-e,
+div.gist .pl-e,
+.file table.highlight .pl-e {
+  color: #3c758d;
+}
+#readme .pl-ent,
+div.gist .pl-ent,
+.file table.highlight .pl-ent {
+  color: #3c758d;
+}
+.skip .file table.highlight td.blob-code {
+  color: #ffffff;
+}
 /* Plain text */
-.file table.highlight .blob-num {
+.skip .file table.highlight .blob-num {
   color: #aaaaaa;
 }
 /* Line numbers */
-.file table.highlight span.c,
+.skip .file table.highlight span.c,
 div.gist span.c,
 .readme span.c {
   color: #8146a2;
 }
 /* Comment */
-.file table.highlight span.c1,
+.skip .file table.highlight span.c1,
 div.gist span.c1,
 .readme span.c1 {
   color: #8146a2;
 }
 /* Single line comment */
-.file table.highlight span.cm,
+.skip .file table.highlight span.cm,
 div.gist span.cm,
 .readme span.cm {
   color: #8146a2;
 }
 /* Multi line comment */
-.file table.highlight span.kd,
+.skip .file table.highlight span.kd,
 div.gist span.kd,
 .readme span.kd {
   color: #f1c438;
 }
 /* Keyword definition? */
-.file table.highlight span.pi,
+.skip .file table.highlight span.pi,
 div.gist span.pi,
 .readme span.pi {
   color: #ffffff;
 }
 /* Punctuation */
-.file table.highlight span.o,
+.skip .file table.highlight span.o,
 div.gist span.o,
 .readme span.o {
   color: #ffffff;
 }
 /*Operators */
-.file table.highlight span.oi,
+.skip .file table.highlight span.oi,
 div.gist span.oi,
 .readme span.oi {
   color: #ffffff;
 }
 /* Operators */
-.file table.highlight span.nt,
+.skip .file table.highlight span.nt,
 div.gist span.nt,
 .readme span.nt {
   color: #477488;
 }
 /* Not sure - used for html tag? */
-.file table.highlight span.s1,
+.skip .file table.highlight span.s1,
 div.gist span.s1,
 .readme span.s1 {
   color: #80ff00;
 }
 /* Single string */
-.file table.highlight span.s2,
+.skip .file table.highlight span.s2,
 div.gist span.s2,
 .readme span.s2 {
   color: #80ff00;
 }
 /* Double string */
-.file table.highlight span.nx,
+.skip .file table.highlight span.nx,
 div.gist span.nx,
 .readme span.nx {
   color: #ffffff;
 }
 /* Other */
-.file table.highlight span.k,
+.skip .file table.highlight span.k,
 div.gist span.k,
 .readme span.k {
   color: #ec691e;
 }
 /* Keyword */
-.file table.highlight span.kc,
+.skip .file table.highlight span.kc,
 div.gist span.kc,
 .readme span.kc {
   color: #ec691e;
 }
 /* Keyword constant */
-.file table.highlight span.kp,
+.skip .file table.highlight span.kp,
 div.gist span.kp,
 .readme span.kp {
   color: #ffffff;
 }
 /* Keyword something, like true/false */
-.file table.highlight span.kt,
+.skip .file table.highlight span.kt,
 div.gist span.kt,
 .readme span.kt {
   color: #af662f;
 }
 /* Return type */
-.file table.highlight span.nc,
+.skip .file table.highlight span.nc,
 div.gist span.nc,
 .readme span.nc {
   color: #9cf828;
 }
 /* Class name */
-.file table.highlight span.nn,
+.skip .file table.highlight span.nn,
 div.gist span.nn,
 .readme span.nn {
   color: #ffffff;
 }
 /* Namespace name */
-.file table.highlight span.n,
+.skip .file table.highlight span.n,
 div.gist span.n,
 .readme span.n {
   color: #ffffff;
 }
 /* Name */
-.file table.highlight span.nb,
+.skip .file table.highlight span.nb,
 div.gist span.nb,
 .readme span.nb {
   color: #ffffff;
 }
 /* Method names? */
-.file table.highlight span.nf,
+.skip .file table.highlight span.nf,
 div.gist span.nf,
 .readme span.nf {
   color: #3c758d;
 }
 /* Inherited class */
-.file table.highlight span.ss,
+.skip .file table.highlight span.ss,
 div.gist span.ss,
 .readme span.ss {
   color: #477488;
 }
 /* Ruby hash */
-.file table.highlight span.no,
+.skip .file table.highlight span.no,
 div.gist span.no,
 .readme span.no {
-  color: #f1c438;
+  color: #3c758d;
 }
 /* Object local */
-.file table.highlight span.bp,
+.skip .file table.highlight span.bp,
 div.gist span.bp,
 .readme span.bp {
   color: #f1c438;
 }
 /* Not sure  */
-.file table.highlight span.p,
+.skip .file table.highlight span.p,
 div.gist span.p,
 .readme span.p {
   color: #ffffff;
