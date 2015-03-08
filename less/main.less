@@ -2,35 +2,36 @@
 .file div.diff-line-code, // commit diff
 #files .blame .file-code, // blame
 div.gistktable.highlight, //gist
-.readme .markdown-body .highlight pre {
+#readme .markdown-body .highlight pre {
   color: @text; 
   background-color: @background; /* Background color */
 }
 
+// TODO: Refactor this and come up with more intuitive variable names so
+// it's much easier to create themes.
+@variable: @name;
+@constant-type: @ss;
 
-.file table.highlight td.blob-code { color: @text; } /* Plain text */
-.file table.highlight .blob-num { color: @lineNums; } /* Line numbers */
-.file table.highlight span.c,  div.gist span.c,  .readme span.c  { color: @comment; } /* Comment */
-.file table.highlight span.c1, div.gist span.c1, .readme span.c1 { color: @comment; } /* Single line comment */
-.file table.highlight span.cm, div.gist span.cm, .readme span.cm { color: @comment; } /* Multi line comment */
-.file table.highlight span.kd, div.gist span.kd, .readme span.kd { color: @keywordDef; } /* Keyword definition? */
-.file table.highlight span.pi, div.gist span.pi, .readme span.pi { color: @punctuation; } /* Punctuation */
-.file table.highlight span.o,  div.gist span.o,  .readme span.o  { color: @operator; } /*Operators */
-.file table.highlight span.oi, div.gist span.oi, .readme span.oi { color: @operator; } /* Operators */
-.file table.highlight span.nt, div.gist span.nt, .readme span.nt { color: @nt; } /* Not sure - used for html tag? */
-.file table.highlight span.s1, div.gist span.s1, .readme span.s1 { color: @string; } /* Single string */
-.file table.highlight span.s2, div.gist span.s2, .readme span.s2 { color: @string; } /* Double string */
-.file table.highlight span.nx, div.gist span.nx, .readme span.nx { color: @other; } /* Other */
-.file table.highlight span.k,  div.gist span.k,  .readme span.k  { color: @keyword; } /* Keyword */
-.file table.highlight span.kc, div.gist span.kc, .readme span.kc { color: @keyword; } /* Keyword constant */
-.file table.highlight span.kp, div.gist span.kp, .readme span.kp { color: @keyword2; } /* Keyword something, like true/false */
-.file table.highlight span.kt, div.gist span.kt, .readme span.kt { color: @type; } /* Return type */
-.file table.highlight span.nc, div.gist span.nc, .readme span.nc { color: @class; } /* Class name */
-.file table.highlight span.nn, div.gist span.nn, .readme span.nn { color: @namespace; } /* Namespace name */
-.file table.highlight span.n,  div.gist span.n,  .readme span.n  { color: @name; } /* Name */
-.file table.highlight span.nb, div.gist span.nb, .readme span.nb { color: @method; } /* Method names? */
-.file table.highlight span.nf, div.gist span.nf, .readme span.nf { color: @inherited; } /* Inherited class */
-.file table.highlight span.ss, div.gist span.ss, .readme span.ss { color: @ss; } /* Ruby hash */
-.file table.highlight span.no, div.gist span.no, .readme span.no { color: @local; } /* Object local */
-.file table.highlight span.bp, div.gist span.bp, .readme span.bp { color: @bp; } /* Not sure  */
-.file table.highlight span.p,  div.gist span.p,  .readme span.p  { color: @paren; } /* Parenthesis */
+#readme,
+div.gist,
+.file table.highlight {
+  .blame-commit-title { color: @text; } // Commit message on blame
+  td.blob-code { color: @text; } // Plain text
+  .pl-c { color: @comment; } // Single line comment
+  .pl-c1 { color: @constant-type; } // Constant type (e.g. numbers, null)
+  .pl-k { color: @keyword;} // Keywords (import, default, return)
+  .pl-st { color: @keyword; } // Keywords (function in js)
+  .pl-s3 { color: @name; }  // Names of built-ins (JS: Object, toLowerCase)
+  .pl-vpf { color: @name; } // Function variable
+  .pl-d3 { color: @name; } // variable methods/properties
+  .pl-s1 .pl-pds { color: @string; } // Quotes around a string
+  .pl-s1 { color: @string; } // String content
+  .pl-s { color: @keyword; } // Keywords (e.g function, export, var..)
+  .pl-en { color: @name; }
+  .pl-v { color: @name; } // Variable
+  .pl-vo { font-weight: bold; color: @local; } // Local variables usually
+  .pl-pse { color: @local; }
+  .pl-s2 { color: @bp; font-weight: bold; }
+  .pl-e { color: @local; }
+  .pl-ent { color: @local; }
+}
