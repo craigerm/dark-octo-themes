@@ -1,3 +1,6 @@
+1.12 / 2015-03-08
+    * Fix issue with themes not working due to github markup changes
+
 1.11 / 2014-10-08
     * Fix diff colours
 
