@@ -1,3 +1,6 @@
+1.13 / 2015-03-16
+    * Fix issue with gist background colour not working
+
 1.12 / 2015-03-08
     * Fix issue with themes not working due to github markup changes
 
