@@ -1,3 +1,6 @@
+1.14 / 2015-03-23
+    * Fix colours not working for strings and method arguments
+
 1.13 / 2015-03-16
     * Fix issue with gist background colour not working
 

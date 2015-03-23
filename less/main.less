@@ -12,12 +12,20 @@ div.gist-content .highlight pre, // gist
 @variable: @name;
 @constant-type: @ss;
 
+// Others that will just use plain text
+@pl-smi: @text;
+@pl-sr: @ss;
+@pl-sr-cce: @ss;
+
 #readme,
 div.gist,
 .file table.highlight {
   .blame-commit-title { color: @text; } // Commit message on blame
   td.blob-code { color: @text; } // Plain text
   .pl-c { color: @comment; } // Single line comment
+  .pl-smi { color: @pl-smi; } // Some method argument?
+  .pl-sr { color: @pl-sr; }
+  .pl-sr .pl-cce { color: @pl-sr-cce }
   .pl-c1 { color: @constant-type; } // Constant type (e.g. numbers, null)
   .pl-k { color: @keyword;} // Keywords (import, default, return)
   .pl-st { color: @keyword; } // Keywords (function in js)
@@ -25,12 +33,15 @@ div.gist,
   .pl-vpf { color: @name; } // Function variable
   .pl-d3 { color: @name; } // variable methods/properties
   .pl-s1 .pl-pds { color: @string; } // Quotes around a string
+  span.pl-s { color: @string !important; }
+  .pl-s, .pl-s .pl-pds { color: @string; } // Quotes around a string
   .pl-s1 { color: @string; } // String content
   .pl-s { color: @keyword; } // Keywords (e.g function, export, var..)
   .pl-en { color: @name; }
   .pl-v { color: @name; } // Variable
   .pl-vo { font-weight: bold; color: @local; } // Local variables usually
   .pl-pse { color: @local; }
+  .pl-pse .pl-s1 { color: @local }
   .pl-s2 { color: @bp; font-weight: bold; }
   .pl-e { color: @local; }
   .pl-ent { color: @local; }

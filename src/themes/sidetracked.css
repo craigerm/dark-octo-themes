@@ -24,6 +24,21 @@ div.gist .pl-c,
 .file table.highlight .pl-c {
   color: #554930;
 }
+#readme .pl-smi,
+div.gist .pl-smi,
+.file table.highlight .pl-smi {
+  color: #f8f8f8;
+}
+#readme .pl-sr,
+div.gist .pl-sr,
+.file table.highlight .pl-sr {
+  color: #f8f8f8;
+}
+#readme .pl-sr .pl-cce,
+div.gist .pl-sr .pl-cce,
+.file table.highlight .pl-sr .pl-cce {
+  color: #f8f8f8;
+}
 #readme .pl-c1,
 div.gist .pl-c1,
 .file table.highlight .pl-c1 {
@@ -59,6 +74,19 @@ div.gist .pl-s1 .pl-pds,
 .file table.highlight .pl-s1 .pl-pds {
   color: #7a9b24;
 }
+#readme span.pl-s,
+div.gist span.pl-s,
+.file table.highlight span.pl-s {
+  color: #7a9b24 !important;
+}
+#readme .pl-s,
+div.gist .pl-s,
+.file table.highlight .pl-s,
+#readme .pl-s .pl-pds,
+div.gist .pl-s .pl-pds,
+.file table.highlight .pl-s .pl-pds {
+  color: #7a9b24;
+}
 #readme .pl-s1,
 div.gist .pl-s1,
 .file table.highlight .pl-s1 {
@@ -88,6 +116,11 @@ div.gist .pl-vo,
 #readme .pl-pse,
 div.gist .pl-pse,
 .file table.highlight .pl-pse {
+  color: #f8f8f8;
+}
+#readme .pl-pse .pl-s1,
+div.gist .pl-pse .pl-s1,
+.file table.highlight .pl-pse .pl-s1 {
   color: #f8f8f8;
 }
 #readme .pl-s2,
