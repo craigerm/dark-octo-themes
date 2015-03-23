@@ -1,6 +1,6 @@
 {
   "name": "dark-octo-themes",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-less": "~0.7.0",
