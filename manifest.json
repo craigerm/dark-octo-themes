@@ -2,17 +2,13 @@
   "name": "Dark Octo Themes",
   "version": "1.14",
   "manifest_version": 2,
-  "description": "Apply different source code themes when viewing github repositories",
-  "background": {
-    "scripts": [
-        "src/js/applyTheme.js",
-        "src/js/themeStorage.js"
-    ]
+  "description": "Allows you to view source code on GitHub with a dark theme instead of the default light theme.",
+  "icons": {
+    "128": "src/images/icon.png"
   },
-  "permissions": [ 
-    "tabs", 
-    "https://gist.github.com/*",
-    "https://github.com/*"
-  ],
+  "background": {
+    "scripts": ["src/js/applyTheme.js", "src/js/themeStorage.js"]
+  },
+  "permissions": ["tabs", "https://gist.github.com/*", "https://github.com/*"],
   "options_page": "src/options.html"
 }
