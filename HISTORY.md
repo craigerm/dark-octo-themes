@@ -1,3 +1,8 @@
+1.15 / 2020-05-11
+    * Fix themes not being applied to code files
+    * Fix styles for blame, diffs, comments, etc.
+    * Add a new icon
+
 1.14 / 2015-03-23
     * Fix colours not working for strings and method arguments
 
