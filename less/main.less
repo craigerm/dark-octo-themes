@@ -1,10 +1,29 @@
-.file div.blob-wrapper .highlight, // source file
+// Backgrounds
+.blob-wrapper .highlight, // source file
 .file div.diff-line-code, // commit diff
+.diff-table,  // code diff
 #files .blame .file-code, // blame
 div.gist-content .highlight pre, // gist
-#readme .markdown-body .highlight pre {
-  color: @text; 
-  background-color: @background; /* Background color */
+.blob-wrapper .blob-code-inner, // blame
+.blob-wrapper .blob-code-inner pre, // blame
+.markdown-body .highlight pre,
+#readme td.blob-code,
+div.gist td.blob-code,
+.comment-body .highlight td.blob-code,
+.blob-wrapper .highlight td.blob-code,
+.Box-body.data table.highlight td.blob-code {
+  color: @text !important;
+  background-color: @background !important;
+}
+
+// Code numbers,e tc.
+#readme .blob-num,
+div.gist .blob-num,
+.comment-body .highlight .blob-num,
+.blob-wrapper .highlight .blob-num,
+.Box-body.data table.highlight .blob-num {
+  color: @text !important;
+  background-color: @background !important;
 }
 
 // TODO: Refactor this and come up with more intuitive variable names so
@@ -19,14 +38,16 @@ div.gist-content .highlight pre, // gist
 
 #readme,
 div.gist,
-.file table.highlight {
+.comment-body .highlight,
+.blob-wrapper .highlight,
+.Box-body.data table.highlight {
   .blame-commit-title { color: @text; } // Commit message on blame
   td.blob-code { color: @text; } // Plain text
   .pl-c { color: @comment; } // Single line comment
   .pl-smi { color: @pl-smi; } // Some method argument?
   .pl-sr { color: @pl-sr; }
   .pl-sr .pl-cce { color: @pl-sr-cce }
-  .pl-c1 { color: @constant-type; } // Constant type (e.g. numbers, null)
+  .pl-c1 { color: @text; } // Constant type (e.g. numbers, null)
   .pl-k { color: @keyword;} // Keywords (import, default, return)
   .pl-st { color: @keyword; } // Keywords (function in js)
   .pl-s3 { color: @name; }  // Names of built-ins (JS: Object, toLowerCase)
@@ -34,8 +55,9 @@ div.gist,
   .pl-d3 { color: @name; } // variable methods/properties
   .pl-s1 .pl-pds { color: @string; } // Quotes around a string
   span.pl-s { color: @string !important; }
-  .pl-s, .pl-s .pl-pds { color: @string; } // Quotes around a string
-  .pl-s1 { color: @string; } // String content
+  .pl-s .pl-pds { color: @string; } // Quotes around a string
+  .pl-pds { color: @local; }
+  .pl-s1 { color: @text; } // String content
   .pl-s { color: @keyword; } // Keywords (e.g function, export, var..)
   .pl-en { color: @name; }
   .pl-v { color: @name; } // Variable
@@ -45,4 +67,89 @@ div.gist,
   .pl-s2 { color: @bp; font-weight: bold; }
   .pl-e { color: @local; }
   .pl-ent { color: @local; }
+  .blob-num { color: @text; }
+  .bg-yellow-light { color: @highlight-text-color; }
+}
+
+// Blame commit info styles
+.blob-wrapper .blame-hunk {
+  border-color: @divider-color !important;
+}
+
+.blob-wrapper .blame-commit {
+  .text-gray-dark {
+    color: @text !important;
+  }
+  a {
+    color: @bp;
+  }
+}
+
+// Code divider styles
+.code-list .divider .blob-num,
+.code-list .divider .blob-code {
+  background-color: @divider-color !important;
+}
+
+// Diff styles
+.diff-table,
+.comment-body {
+  .blob-wrapper .blob-code-inner {
+    background-color: inherit !important;
+  }
+  span {
+    color: @text;
+  }
+  .blob-num-addition,
+  .blob-code.blob-code-addition {
+    background-color: @diff-added-bg;
+    color: @diff-added-text;
+  }
+
+  .blob-code-addition {
+    .blob-code-inner,
+    .blob-code-inner span {
+      background-color: @diff-added-bg !important;
+      color: @diff-added-text !important;
+    }
+    .blob-code-inner span.x {
+      background-color: @diff-added-highlight-bg !important;
+      color: @diff-added-highlight-text !important;
+    }
+  }
+
+  .blob-code-deletion {
+    .blob-code-inner,
+    .blob-code-inner span {
+      background-color: @diff-deleted-bg !important;
+      color: @diff-deleted-text !important;
+    }
+    .blob-code-inner span.x {
+      background-color: @diff-deleted-highlight-bg !important;
+      color: @diff-deleted-highlight-text !important;
+    }
+  }
+
+  .blob-num-deletion,
+  .blob-code.blob-code-deletion {
+    background-color: @diff-deleted-bg;
+    color: @diff-deleted-text;
+  }
+}
+
+.comment-body {
+  .blob-wrapper .blob-code-inner {
+    background-color: @background !important;
+  }
+  .blob-wrapper .blob-code-inner.blob-code-addition {
+    background-color: @diff-added-bg !important;
+    color: @diff-added-text !important;
+  }
+  .blob-wrapper .blob-code-inner.blob-code-deletion {
+    background-color: @diff-deleted-bg !important;
+    color: @diff-deleted-text !important;
+    span {
+      color: @diff-deleted-text !important;
+    }
+  }
 }

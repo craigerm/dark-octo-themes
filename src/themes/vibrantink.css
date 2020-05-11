@@ -1,140 +1,295 @@
-.file div.blob-wrapper .highlight,
+.blob-wrapper .highlight,
 .file div.diff-line-code,
+.diff-table,
 #files .blame .file-code,
 div.gist-content .highlight pre,
-#readme .markdown-body .highlight pre {
-  color: #ffffff;
-  background-color: #191919;
-  /* Background color */
-
+.blob-wrapper .blob-code-inner,
+.blob-wrapper .blob-code-inner pre,
+.markdown-body .highlight pre,
+#readme td.blob-code,
+div.gist td.blob-code,
+.comment-body .highlight td.blob-code,
+.blob-wrapper .highlight td.blob-code,
+.Box-body.data table.highlight td.blob-code {
+  color: #ffffff !important;
+  background-color: #191919 !important;
+}
+#readme .blob-num,
+div.gist .blob-num,
+.comment-body .highlight .blob-num,
+.blob-wrapper .highlight .blob-num,
+.Box-body.data table.highlight .blob-num {
+  color: #ffffff !important;
+  background-color: #191919 !important;
 }
 #readme .blame-commit-title,
 div.gist .blame-commit-title,
-.file table.highlight .blame-commit-title {
+.comment-body .highlight .blame-commit-title,
+.blob-wrapper .highlight .blame-commit-title,
+.Box-body.data table.highlight .blame-commit-title {
   color: #ffffff;
 }
 #readme td.blob-code,
 div.gist td.blob-code,
-.file table.highlight td.blob-code {
+.comment-body .highlight td.blob-code,
+.blob-wrapper .highlight td.blob-code,
+.Box-body.data table.highlight td.blob-code {
   color: #ffffff;
 }
 #readme .pl-c,
 div.gist .pl-c,
-.file table.highlight .pl-c {
+.comment-body .highlight .pl-c,
+.blob-wrapper .highlight .pl-c,
+.Box-body.data table.highlight .pl-c {
   color: #8146a2;
 }
 #readme .pl-smi,
 div.gist .pl-smi,
-.file table.highlight .pl-smi {
+.comment-body .highlight .pl-smi,
+.blob-wrapper .highlight .pl-smi,
+.Box-body.data table.highlight .pl-smi {
   color: #ffffff;
 }
 #readme .pl-sr,
 div.gist .pl-sr,
-.file table.highlight .pl-sr {
+.comment-body .highlight .pl-sr,
+.blob-wrapper .highlight .pl-sr,
+.Box-body.data table.highlight .pl-sr {
   color: #477488;
 }
 #readme .pl-sr .pl-cce,
 div.gist .pl-sr .pl-cce,
-.file table.highlight .pl-sr .pl-cce {
+.comment-body .highlight .pl-sr .pl-cce,
+.blob-wrapper .highlight .pl-sr .pl-cce,
+.Box-body.data table.highlight .pl-sr .pl-cce {
   color: #477488;
 }
 #readme .pl-c1,
 div.gist .pl-c1,
-.file table.highlight .pl-c1 {
-  color: #477488;
+.comment-body .highlight .pl-c1,
+.blob-wrapper .highlight .pl-c1,
+.Box-body.data table.highlight .pl-c1 {
+  color: #ffffff;
 }
 #readme .pl-k,
 div.gist .pl-k,
-.file table.highlight .pl-k {
+.comment-body .highlight .pl-k,
+.blob-wrapper .highlight .pl-k,
+.Box-body.data table.highlight .pl-k {
   color: #ec691e;
 }
 #readme .pl-st,
 div.gist .pl-st,
-.file table.highlight .pl-st {
+.comment-body .highlight .pl-st,
+.blob-wrapper .highlight .pl-st,
+.Box-body.data table.highlight .pl-st {
   color: #ec691e;
 }
 #readme .pl-s3,
 div.gist .pl-s3,
-.file table.highlight .pl-s3 {
+.comment-body .highlight .pl-s3,
+.blob-wrapper .highlight .pl-s3,
+.Box-body.data table.highlight .pl-s3 {
   color: #ffffff;
 }
 #readme .pl-vpf,
 div.gist .pl-vpf,
-.file table.highlight .pl-vpf {
+.comment-body .highlight .pl-vpf,
+.blob-wrapper .highlight .pl-vpf,
+.Box-body.data table.highlight .pl-vpf {
   color: #ffffff;
 }
 #readme .pl-d3,
 div.gist .pl-d3,
-.file table.highlight .pl-d3 {
+.comment-body .highlight .pl-d3,
+.blob-wrapper .highlight .pl-d3,
+.Box-body.data table.highlight .pl-d3 {
   color: #ffffff;
 }
 #readme .pl-s1 .pl-pds,
 div.gist .pl-s1 .pl-pds,
-.file table.highlight .pl-s1 .pl-pds {
+.comment-body .highlight .pl-s1 .pl-pds,
+.blob-wrapper .highlight .pl-s1 .pl-pds,
+.Box-body.data table.highlight .pl-s1 .pl-pds {
   color: #80ff00;
 }
 #readme span.pl-s,
 div.gist span.pl-s,
-.file table.highlight span.pl-s {
+.comment-body .highlight span.pl-s,
+.blob-wrapper .highlight span.pl-s,
+.Box-body.data table.highlight span.pl-s {
   color: #80ff00 !important;
 }
-#readme .pl-s,
-div.gist .pl-s,
-.file table.highlight .pl-s,
 #readme .pl-s .pl-pds,
 div.gist .pl-s .pl-pds,
-.file table.highlight .pl-s .pl-pds {
+.comment-body .highlight .pl-s .pl-pds,
+.blob-wrapper .highlight .pl-s .pl-pds,
+.Box-body.data table.highlight .pl-s .pl-pds {
   color: #80ff00;
+}
+#readme .pl-pds,
+div.gist .pl-pds,
+.comment-body .highlight .pl-pds,
+.blob-wrapper .highlight .pl-pds,
+.Box-body.data table.highlight .pl-pds {
+  color: #3c758d;
 }
 #readme .pl-s1,
 div.gist .pl-s1,
-.file table.highlight .pl-s1 {
-  color: #80ff00;
+.comment-body .highlight .pl-s1,
+.blob-wrapper .highlight .pl-s1,
+.Box-body.data table.highlight .pl-s1 {
+  color: #ffffff;
 }
 #readme .pl-s,
 div.gist .pl-s,
-.file table.highlight .pl-s {
+.comment-body .highlight .pl-s,
+.blob-wrapper .highlight .pl-s,
+.Box-body.data table.highlight .pl-s {
   color: #ec691e;
 }
 #readme .pl-en,
 div.gist .pl-en,
-.file table.highlight .pl-en {
+.comment-body .highlight .pl-en,
+.blob-wrapper .highlight .pl-en,
+.Box-body.data table.highlight .pl-en {
   color: #ffffff;
 }
 #readme .pl-v,
 div.gist .pl-v,
-.file table.highlight .pl-v {
+.comment-body .highlight .pl-v,
+.blob-wrapper .highlight .pl-v,
+.Box-body.data table.highlight .pl-v {
   color: #ffffff;
 }
 #readme .pl-vo,
 div.gist .pl-vo,
-.file table.highlight .pl-vo {
+.comment-body .highlight .pl-vo,
+.blob-wrapper .highlight .pl-vo,
+.Box-body.data table.highlight .pl-vo {
   font-weight: bold;
   color: #3c758d;
 }
 #readme .pl-pse,
 div.gist .pl-pse,
-.file table.highlight .pl-pse {
+.comment-body .highlight .pl-pse,
+.blob-wrapper .highlight .pl-pse,
+.Box-body.data table.highlight .pl-pse {
   color: #3c758d;
 }
 #readme .pl-pse .pl-s1,
 div.gist .pl-pse .pl-s1,
-.file table.highlight .pl-pse .pl-s1 {
+.comment-body .highlight .pl-pse .pl-s1,
+.blob-wrapper .highlight .pl-pse .pl-s1,
+.Box-body.data table.highlight .pl-pse .pl-s1 {
   color: #3c758d;
 }
 #readme .pl-s2,
 div.gist .pl-s2,
-.file table.highlight .pl-s2 {
+.comment-body .highlight .pl-s2,
+.blob-wrapper .highlight .pl-s2,
+.Box-body.data table.highlight .pl-s2 {
   color: #f1c438;
   font-weight: bold;
 }
 #readme .pl-e,
 div.gist .pl-e,
-.file table.highlight .pl-e {
+.comment-body .highlight .pl-e,
+.blob-wrapper .highlight .pl-e,
+.Box-body.data table.highlight .pl-e {
   color: #3c758d;
 }
 #readme .pl-ent,
 div.gist .pl-ent,
-.file table.highlight .pl-ent {
+.comment-body .highlight .pl-ent,
+.blob-wrapper .highlight .pl-ent,
+.Box-body.data table.highlight .pl-ent {
   color: #3c758d;
+}
+#readme .blob-num,
+div.gist .blob-num,
+.comment-body .highlight .blob-num,
+.blob-wrapper .highlight .blob-num,
+.Box-body.data table.highlight .blob-num {
+  color: #ffffff;
+}
+#readme .bg-yellow-light,
+div.gist .bg-yellow-light,
+.comment-body .highlight .bg-yellow-light,
+.blob-wrapper .highlight .bg-yellow-light,
+.Box-body.data table.highlight .bg-yellow-light {
+  color: #333333;
+}
+.blob-wrapper .blame-hunk {
+  border-color: #292929 !important;
+}
+.blob-wrapper .blame-commit .text-gray-dark {
+  color: #ffffff !important;
+}
+.blob-wrapper .blame-commit a {
+  color: #f1c438;
+}
+.code-list .divider .blob-num,
+.code-list .divider .blob-code {
+  background-color: #292929 !important;
+}
+.diff-table .blob-wrapper .blob-code-inner,
+.comment-body .blob-wrapper .blob-code-inner {
+  background-color: inherit !important;
+}
+.diff-table span,
+.comment-body span {
+  color: #ffffff;
+}
+.diff-table .blob-num-addition,
+.comment-body .blob-num-addition,
+.diff-table .blob-code.blob-code-addition,
+.comment-body .blob-code.blob-code-addition {
+  background-color: #416953;
+  color: #ffffff;
+}
+.diff-table .blob-code-addition .blob-code-inner,
+.comment-body .blob-code-addition .blob-code-inner,
+.diff-table .blob-code-addition .blob-code-inner span,
+.comment-body .blob-code-addition .blob-code-inner span {
+  background-color: #416953 !important;
+  color: #ffffff !important;
+}
+.diff-table .blob-code-addition .blob-code-inner span.x,
+.comment-body .blob-code-addition .blob-code-inner span.x {
+  background-color: #bfe6d0 !important;
+  color: #000000 !important;
+}
+.diff-table .blob-code-deletion .blob-code-inner,
+.comment-body .blob-code-deletion .blob-code-inner,
+.diff-table .blob-code-deletion .blob-code-inner span,
+.comment-body .blob-code-deletion .blob-code-inner span {
+  background-color: #fd818f !important;
+  color: #000000 !important;
+}
+.diff-table .blob-code-deletion .blob-code-inner span.x,
+.comment-body .blob-code-deletion .blob-code-inner span.x {
+  background-color: #f1c0c5 !important;
+  color: #000000 !important;
+}
+.diff-table .blob-num-deletion,
+.comment-body .blob-num-deletion,
+.diff-table .blob-code.blob-code-deletion,
+.comment-body .blob-code.blob-code-deletion {
+  background-color: #fd818f;
+  color: #000000;
+}
+.comment-body .blob-wrapper .blob-code-inner {
+  background-color: #191919 !important;
+}
+.comment-body .blob-wrapper .blob-code-inner.blob-code-addition {
+  background-color: #416953 !important;
+  color: #ffffff !important;
+}
+.comment-body .blob-wrapper .blob-code-inner.blob-code-deletion {
+  background-color: #fd818f !important;
+  color: #000000 !important;
+}
+.comment-body .blob-wrapper .blob-code-inner.blob-code-deletion span {
+  color: #000000 !important;
 }
