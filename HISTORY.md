@@ -1,3 +1,6 @@
+# 1.17 / 2020-05-11
+    * Don't check url since it's not needed anymore
+
 # 1.16 / 2020-05-11
     * Change permissions to use `tabs` instead of `activeTab`
 

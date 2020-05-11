@@ -1,6 +1,6 @@
 {
   "name": "Dark Octo Themes",
-  "version": "1.16",
+  "version": "1.17",
   "manifest_version": 2,
   "description": "Allows you to view source code on GitHub with a dark theme instead of the default light theme.",
   "icons": {
