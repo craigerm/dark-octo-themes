@@ -9,6 +9,10 @@
   "background": {
     "scripts": ["src/js/applyTheme.js", "src/js/themeStorage.js"]
   },
-  "permissions": ["tabs", "https://gist.github.com/*", "https://github.com/*"],
+  "permissions": [
+    "activeTab",
+    "https://gist.github.com/*",
+    "https://github.com/*"
+  ],
   "options_page": "src/options.html"
 }
